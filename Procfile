@@ -1,1 +1,1 @@
-web: gunicorn kulup_site --log-file --
+web: gunicorn blog:app
